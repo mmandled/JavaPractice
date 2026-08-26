@@ -4,6 +4,8 @@ public class randomNumber {
 
     public static void main(String[] args) {
 
+        // Random Number
+
         Random random = new Random();
 
         int num1;
