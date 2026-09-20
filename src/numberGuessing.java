@@ -21,9 +21,19 @@ public class numberGuessing {
         do {
             System.out.print("Guess the number: ");
             guess = scanner.nextInt();
+            attempt++;
 
+            if(guess < rand){
+                System.out.println("Too Low! Try again");
+            }else if(guess > rand){
+                System.out.println("Too High! Try again");
+            }else{
+                System.out.printf("The random number was %d\n", rand);
+                System.out.printf("Attempts %d\n", attempt);
+            }
 
-        }while(attempt < max);
+        }while(guess != rand);
 
+        System.out.println("YOU HAVE WON");
     }
 }
