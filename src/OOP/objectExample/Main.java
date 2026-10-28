@@ -1,6 +1,4 @@
-package OOP;
-
-import org.w3c.dom.ls.LSOutput;
+package OOP.objectExample;
 
 
 public class Main {
